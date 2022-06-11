@@ -5,6 +5,7 @@ MAINTAINER srv6d
 RUN apk update && apk add --no-cache \
   git \
   curl \
+  rsync \
   python3 \
   py3-pip \
   py3-wheel \
