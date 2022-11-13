@@ -1,7 +1,9 @@
+# hadolint ignore=DL3007
 FROM alpine:latest
 
-MAINTAINER srv6d
+LABEL org.opencontainers.image.authors="git@srv6d.space"
 
+# hadolint ignore=DL3018
 RUN apk update && apk add --no-cache \
   git \
   curl \
@@ -12,5 +14,5 @@ RUN apk update && apk add --no-cache \
   py3-cryptography \
   docker-cli
 
-ADD requirements.txt /requirements.txt
+COPY requirements.txt /requirements.txt
 RUN pip3 install --no-cache-dir -r /requirements.txt
