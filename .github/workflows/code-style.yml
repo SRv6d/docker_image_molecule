@@ -9,4 +9,4 @@ jobs:
       - name: lint YAML
         uses: ibiqlik/action-yamllint@v3
       - name: lint Dockerfile
-        uses: hadolint/hadolint-action@v3.0.0
+        uses: hadolint/hadolint-action@v3.1.0
