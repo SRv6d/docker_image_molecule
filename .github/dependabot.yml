@@ -11,4 +11,3 @@ updates:
       interval: weekly
     assignees:
       - srv6d
-    versioning-strategy: lockfile-only
