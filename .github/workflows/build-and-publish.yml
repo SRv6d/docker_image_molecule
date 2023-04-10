@@ -9,6 +9,7 @@ on:
       - requirements.txt
   schedule:
     - cron: 30 5 * * 3
+  workflow_dispatch:
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
