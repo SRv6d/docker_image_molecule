@@ -1,5 +1,5 @@
 ansible==7.5.0
-docker==6.0.1
+docker==6.1.1
 molecule==5.0.1
 molecule-docker==2.1.0
 pytest-testinfra==7.0.0
